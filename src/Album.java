@@ -1,11 +1,10 @@
 import java.util.ArrayList;
-import java.util.LinkedList;
 
 public class Album {
     String title;
     String artist;
     ArrayList<Song> SongList = new ArrayList<Song>();
-    LinkedList<Song> Playlist = new LinkedList<Song>();
+    
 
     public Album(){
 
@@ -15,7 +14,7 @@ public class Album {
         this.title = title;
         this.artist = artist;
         this.SongList = new ArrayList<Song>();
-        this.Playlist = new LinkedList<Song>();
+        
     }
 
     public void addSong(String title, double duration){

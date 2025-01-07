@@ -1,7 +1,7 @@
 import java.util.LinkedList;
 import java.util.ListIterator;
 
-public class Playlist extends Album {
+public class Playlist  {
 
     public LinkedList<Song> playlist1;
     public ListIterator<Song> it;

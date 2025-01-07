@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class App extends UserMenu{
+public class App  {
     public static void main(String[] args) throws Exception {
         
         UserMenu menu = new UserMenu();

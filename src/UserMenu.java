@@ -1,5 +1,5 @@
 
-public class UserMenu extends Playlist{
+public class UserMenu {
 
     public UserMenu() {
         super();
