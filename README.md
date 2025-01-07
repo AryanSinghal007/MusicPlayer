@@ -36,7 +36,7 @@ This is a simple console-based Music Player application developed in Java. It al
 4. Run the program
 
    ```bash
-   javac App
+   java App
 
 ## Future Enhancements
 

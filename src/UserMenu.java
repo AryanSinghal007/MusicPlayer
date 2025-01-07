@@ -1,4 +1,9 @@
+
 public class UserMenu extends Playlist{
+
+    public UserMenu() {
+        super();
+    }
 
     public void displayMenu() {
         System.out.println("1. Play next song");
@@ -12,10 +17,8 @@ public class UserMenu extends Playlist{
         System.out.println("Goodbye!");
         System.exit(0);
     }
-
-    Playlist playlist = new Playlist();
-
-    public void UserInput(int n){
+ 
+    public void UserInput(int n, Playlist playlist) {
         switch(n){
             case 1:
                 // System.out.println("Playing next song");

@@ -1,18 +1,25 @@
 import java.util.ArrayList;
+import java.util.LinkedList;
 
-public class Album extends Playlist{
+public class Album {
     String title;
     String artist;
-    ArrayList<Song> SongList;
+    ArrayList<Song> SongList = new ArrayList<Song>();
+    LinkedList<Song> Playlist = new LinkedList<Song>();
+
+    public Album(){
+
+    }
 
     public Album(String title, String artist){
         this.title = title;
         this.artist = artist;
         this.SongList = new ArrayList<Song>();
+        this.Playlist = new LinkedList<Song>();
     }
 
-    protected void addSong(String title, double duration){
-        if(findSong(title)){
+    public void addSong(String title, double duration){
+        if(this.findSong(title)){
             System.out.println("Song is already present in the album");
         }
         else{
@@ -21,8 +28,11 @@ public class Album extends Playlist{
         }
     }
     
-
     public boolean findSong(String title){
+
+        if(SongList.isEmpty()){
+            return false;
+        }
         
         for (Song elem: SongList){
             if(elem.getTitle().equals(title)){
@@ -32,15 +42,5 @@ public class Album extends Playlist{
 
         return false;
 
-    }
-
-    public void addToPlaylist(Song song){
-        if(findSong(song.getTitle())){
-            System.out.println("Song added to playlist");
-            playlist1.add(song);
-        }
-        else{
-            System.out.println("Song not found in the album");
-        }
     }
 }
