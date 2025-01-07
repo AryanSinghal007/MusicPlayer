@@ -4,14 +4,8 @@
 This is a simple console-based Music Player application developed in Java. It allows users to manage playlists, play songs, and navigate through them efficiently. The program is built using basic OOP principles and Java's data structures.
 
 ## Collaborators
-
-Aryan Singhal
-GitHub: AryanSinghal007[https://github.com/AryanSinghal007]
-Role: Project Creator and Developer
-
-Ansh bathla
-GitHub: anshbathla[https://github.com/anshbathla]
-Role: Project Creator and Developer
+- Aryan Singhal : [AryanSinghal007](https://github.com/AryanSinghal007)
+- Ansh Bathla : [anshbathla](https://github.com/anshbathla)
 
 ## Features
 1. **Create and Manage Playlists**:
