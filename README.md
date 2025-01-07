@@ -1,5 +1,6 @@
 # Music Player Application
 
+![diagram-export-08-01-2025-01_19_21](https://github.com/user-attachments/assets/8422251d-0741-4635-b621-59250680baa0)
 ## Description
 This is a simple console-based Music Player application developed in Java. It allows users to manage playlists, play songs, and navigate through them efficiently. The program is built using basic OOP principles and Java's data structures.
 
