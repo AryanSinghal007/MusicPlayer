@@ -25,37 +25,6 @@ This is a simple console-based Music Player application developed in Java. It al
    - Print the list of songs in the playlist.
    - Quit the application.
 
-
-## Class Structure
-
-### 1. **Song**
-- **Attributes**: `title`, `duration`
-- **Constructor**: Initializes song details.
-
-### 2. **Album**
-- **Attributes**: `albumTitle`, `artist`, `list<Song>`
-- **Functionality**: 
-  - Find songs by title within the album.
-
-### 3. **Playlist**
-- **Attributes**: `LinkedList<Song>`
-- **Functionality**:
-  - Add a song to the playlist.
-  - Remove a song from the playlist.
-
-### 4. **Menu**
-- Handles user inputs to perform operations like:
-  1. Quit the application.
-  2. Play the next song.
-  3. Play the previous song.
-  4. Remove the currently playing song.
-  5. Print the playlist.
-
-### 5. **Main**
-- The entry point of the application.
-- Handles user interactions and invokes menu operations.
-
-
 ## How to Run
 
 1. Clone the repository to your local system.
